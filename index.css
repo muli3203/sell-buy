@@ -1,11 +1,15 @@
-body{
+body {
     background-color: thistle;
     font-family: 'Schoolbell', cursive;
 }
+
 h1 {
     float: left;
     margin-left: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:20px;
     margin-top: 0%;
     background-color: yellow;
     border: solid 1px black;
@@ -40,7 +44,8 @@ nav li a {
     padding: 16px 16px;
     text-decoration: none;
 }
-li a{
+
+li a {
     margin-top: 2px;
     background-color: white;
 }
@@ -50,11 +55,13 @@ li a:hover {
     background-color: #555;
 
 }
-.search{
-    box-sizing:content-box;
+
+.search {
+    box-sizing: content-box;
     height: 20px;
 }
-button{
+
+button {
     height: 30px;
     box-shadow: 0 4px 4px 0 black;
 }
@@ -132,21 +139,24 @@ button{
     color: black;
     transform: rotateY(180deg);
 }
-footer{
+
+footer {
     bottom: 0px;
     margin: 0;
     width: 100%;
     text-align: center;
     background-color: grey;
 }
-footer ul{
+
+footer ul {
     text-align: center;
 }
-footer ul li{
+
+footer ul li {
     list-style-type: none;
     display: inline-block;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
 }

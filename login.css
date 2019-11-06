@@ -1,12 +1,14 @@
-html, body {   
-    width: 100%;   
-   height: 100%;   
-   font-family: "Helvetica Neue", Helvetica, sans-serif;   
-   color: #444;   
-   -webkit-font-smoothing: antialiased;    background: #f0f0f0;
-   }
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Schoolbell', cursive;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    background: #f0f0f0;
+}
 
-   #container {
+#container {
     position: fixed;
     width: 340px;
     height: 280px;
@@ -19,8 +21,9 @@ html, body {
     border: 1px solid rgb(196, 22, 22);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
 
-    }
-    nav ul {
+}
+
+nav ul {
 
     text-align: right;
 }
@@ -48,7 +51,8 @@ nav li a {
     padding: 16px 16px;
     text-decoration: none;
 }
-li a{
+
+li a {
     margin-top: 2px;
     background-color: white;
 }
@@ -63,6 +67,7 @@ form {
     margin: 0 auto;
     margin-top: 20px;
 }
+
 label {
     color: #555;
     display: inline-block;
@@ -70,6 +75,7 @@ label {
     padding-top: 10px;
     font-size: 14px;
 }
+
 p a {
     font-size: 11px;
     color: #aaa;
@@ -77,14 +83,17 @@ p a {
     margin-top: -13px;
     margin-right: 20px;
 }
+
 p a:hover {
     color: #555;
 }
+
 input {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px;
     outline: none;
 }
+
 input[type=text],
 input[type=password] {
     color: #777;
@@ -95,19 +104,23 @@ input[type=password] {
     width: 290px;
     height: 35px;
 }
+
 #lower {
     background: #ecf2f5;
     width: 100%;
     height: 69px;
     margin-top: 20px;
 }
+
 input[type=checkbox] {
     margin-left: 20px;
     margin-top: 30px;
 }
+
 .check {
     margin-left: 3px;
 }
+
 input[type=submit] {
     float: right;
     margin-right: 20px;
@@ -115,23 +128,26 @@ input[type=submit] {
     width: 80px;
     height: 30px;
 }
-footer{
+
+footer {
     position: fixed;
     bottom: 0;
     margin-left: 35%;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
     width: 30%;
     text-align: center;
     background-color: grey;
 }
-footer ul{
+
+footer ul {
     text-align: center;
 }
-footer ul li{
+
+footer ul li {
     list-style-type: none;
     display: inline-block;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
 }
