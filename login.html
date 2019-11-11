@@ -11,34 +11,32 @@
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="http://127.0.0.1:5500/index.html">Sell&buy</a></li>
-        </ul>
-    </nav>
-    <div id="container">
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
+    <div class="container">
+        <div class="left">
+            <h1>Sign Up</h1>
+            <label for="username">Firstname:</label>
+            <input type="text" id="username" name="username"><br>
+            <label for="username">Secondname:</label>
+            <input type="text" id="secondname" name="secondname"><br>
+            <label for="username">Surname:</label>
+            <input type="text" id="surname" name="surname"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password"><br>
             <div id="lower">
-                <input type="checkbox"><label for="checkbox">Keep me logged in</label>
-                <input type="submit" value="Login">
+                <input type="checkbox"><label for="checkbox">Keep me signed in</label>
+                <input type="submit" value="Sign in">
             </div>
-
-        </form>
+        </div>
+        <div class="right">
+            <span class="signin">Sign in with<br> Social Network</span>
+            <button class="fb">Log in with Facebook</button>
+            <button class="twt">Log in with Twitter</button>
+            <button class="g+">Log in with Google +</button>
+        </div>
     </div>
 
-    <footer>
-        <p>Contact Info</p>
-
-        <ul>
-            <li><a href="https://www.instagram.com" target="_blank">Insta</a></li>
-            <li><a href="https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp"
-                    target="_blank">Gmail</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>
