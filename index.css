@@ -151,6 +151,16 @@ li a:hover {
     color: black;
     transform: rotateY(180deg);
 }
+.info{
+    background-image: url(https://images.pexels.com/photos/459301/pexels-photo-459301.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+    opacity: 0.8;
+}
 
 footer {
     bottom: 0px;
