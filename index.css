@@ -195,30 +195,3 @@ button {
     width: 100%;
     font-size: 18px;
 }
-.column2 {
-    text-align: center;
-    width: 700px; 
-    padding: 0 10px;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    overflow: hidden;
-    object-fit: contain;
-}
-.card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: white;
-    height: 100%;
-}
-.user{
-    height: 90px;
-    width: 65%;
-    border-radius: 2%;
-    background-color: turquoise;
-}
-.hny{
-    height: 30px;
-    width: 80px;
-    
-}
